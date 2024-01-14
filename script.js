@@ -14,7 +14,7 @@ function toggleMode() {
     )
   } else {
     //se tiver sem light mode, manter a imagem atual
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
       "Foto de mayk brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
