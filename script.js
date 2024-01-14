@@ -10,14 +10,14 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito usando óculos escuros, sorrindo em um fundo gradiente entre rosa e azul"
+      "Foto de Lucas Gabriel de terno bege e gravata terracota"
     )
   } else {
     //se tiver sem light mode, manter a imagem atual
     img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
-      "Foto de mayk brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
+      "Foto de Lucas Gabriel de terno bege e gravata terracota"
     )
   }
 }
