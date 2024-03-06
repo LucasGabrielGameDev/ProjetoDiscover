@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Configurações para acessar as fontes necessárias no projeto. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -8,13 +9,18 @@
       rel="stylesheet"
     />
 
+    <!-- Configurações básicas do código para correta interpretação pelo navegador. -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Título da página, irá aparecer no nome da guia -->
     <title>DevLinks</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- DIV que abrange todo o conteúdo principal da página. -->
     <div id="container">
+      <!-- DIV que abrange a foto de perfil e o @ da pessoa. -->
       <div id="profile">
         <img
           src="./assets/avatar-light.png"
@@ -23,7 +29,7 @@
         <!-- Descrição da foto de avatar para ser identificada pelo google e navegadores -->
         <p>@lucasgabrielsouzasantos</p>
       </div>
-
+      <!-- div que abriga apensa o toggle para mudar para o modo claro ou escuro -->
       <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
